@@ -1,3 +1,45 @@
+# GraphQL Example app
+
+Steps to get here:
+
+1. Generate the app using `create-react-app`
+
+   ```bash
+   npx create-react-app --template typescript  graphql-example
+   cd graphql-example
+   ```
+
+1. Open up `package.json`, create a new key called `devDependencies` and move
+   development dependencies to it.
+
+   ```json
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "web-vitals": "^2.1.4"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.11.62",
+        "@types/react": "^18.0.21",
+        "@types/react-dom": "^18.0.6",
+        "react-scripts": "5.0.1",
+        "typescript": "^4.8.4"
+    },
+   ```
+
+   > `npm audit` may report vulnerabilities related to `react-scripts`, but
+   > _typically_ only the output of `npm audit --production` should be cause
+   > for concern.
+
+1. Install apollo client
+   ```bash
+   npm install @apollo/client graphql
+   ```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
