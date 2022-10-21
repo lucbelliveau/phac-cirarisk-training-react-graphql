@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "bierner.github-markdown-preview",
+        "dbaeumer.vscode-eslint",
+        "graphql.vscode-graphql",
+        "graphql.vscode-graphql-syntax",
+        "ms-vscode.vscode-typescript-next",
+        "esbenp.prettier-vscode"
+    ]
+}

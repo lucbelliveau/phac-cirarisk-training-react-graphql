@@ -1,6 +1,15 @@
 # GraphQL Example app
+## Peer training session
 
-Steps to get here:
+### Quickstart
+
+```bash
+npm run start
+```
+Navigate to http://localhost:3000
+
+
+### Steps taken to create this app from scratch:
 
 1. Generate the app using `create-react-app`
 
@@ -39,6 +48,11 @@ Steps to get here:
    ```bash
    npm install @apollo/client graphql
    ```
+
+
+---
+> The folowing is the default README provided with `create-react-app`.
+---
 
 # Getting Started with Create React App
 

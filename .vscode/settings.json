@@ -1,5 +1,4 @@
 {
-    "editor.rulers": [
-    80
-    ]
+  "editor.rulers": [80],
+  "markdown-preview-github-styles.colorTheme": "light"
 }
